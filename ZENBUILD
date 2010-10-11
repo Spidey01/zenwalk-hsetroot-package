@@ -1,0 +1,37 @@
+#Maintainer: Name <email@address.com>
+#Former Maintainer(s): Name <email@address.com>
+#Anything commented out is optional and can be deleted.
+
+pkgname=
+pkgver=
+pkgrel=
+zenver=
+arch=i486
+source=()
+#sourcetemplate=http://users.zenwalk.org/user-accounts/pnboy/$pkgname/$pkgver/
+#docs=("readme" "install" "copying" "changelog" "authors" "news" "todo")
+#url=
+#extradepends=()
+#lessdepends=()
+#dotnew=()
+#CFLAGS=
+#CXXFLAGS=
+#options=('noextract')
+
+#doinst() {
+#
+#}
+
+slackdesc=\
+(
+#|-----handy-ruler------------------------------------------------------|
+""
+)
+
+
+build() {
+	cd $startdir/src/$pkgname-$pkgver
+	./configure --prefix=/usr --localstatedir=/var --sysconfdir=/etc
+	make || return 1
+	make install DESTDIR=$startdir/pkg
+} 
