@@ -1,31 +1,26 @@
-#Maintainer: Name <email@address.com>
-#Former Maintainer(s): Name <email@address.com>
-#Anything commented out is optional and can be deleted.
+#Maintainer: Terry M. Poulin <BigBoss1964@gmail.com>
 
-pkgname=
-pkgver=
-pkgrel=
-zenver=
+pkgname=hsetroot
+pkgver=1.0.2
+pkgrel=1
+zenver=64
 arch=i486
-source=()
-#sourcetemplate=http://users.zenwalk.org/user-accounts/pnboy/$pkgname/$pkgver/
-#docs=("readme" "install" "copying" "changelog" "authors" "news" "todo")
-#url=
-#extradepends=()
-#lessdepends=()
-#dotnew=()
-#CFLAGS=
-#CXXFLAGS=
-#options=('noextract')
-
-#doinst() {
-#
-#}
+source=("http://thegraveyard.org/files/${pkgname}-${pkgver}.tar.gz")
+docs=("README" "INSTALL" "COPYING" "ChangeLog" "AUTHORS" "NEWS")
+url="http://thegraveyard.org/hsetroot.php"
 
 slackdesc=\
 (
 #|-----handy-ruler------------------------------------------------------|
+"$pkgname - set background image for the root window"
 ""
+"hsetroot is a tool which allows you to set wallpapers ("root pixmaps")"
+"for X. It has a lot of options like rendering gradients, solids, images"
+"but it also allows you to perform manipulations on those things, or "
+"chain them together.  You could use one standard background image for "
+"instance, and using tint to make it fit your current theme. And yes, "
+"of course it is compatible with semi-translucent applications like "
+"aterm and xchat :)"
 )
 
 
