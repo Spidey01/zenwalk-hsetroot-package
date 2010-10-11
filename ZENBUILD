@@ -1,4 +1,11 @@
 #Maintainer: Terry M. Poulin <BigBoss1964@gmail.com>
+#
+# Please report any issues with this package via Github:
+#
+# 	http://github.com/Spidey01/zenwalk-hsetroot-package/issues
+#
+# If you must send an E-Mail, prefix the subject line with the package name, or
+# some other means of identifying it as NON-SAM.
 
 pkgname=hsetroot
 pkgver=1.0.2
