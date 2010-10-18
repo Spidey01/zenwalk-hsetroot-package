@@ -23,12 +23,12 @@ slackdesc=\
 "$pkgname - set background image for the root window"
 ""
 "hsetroot is a tool which allows you to set wallpapers ("root pixmaps")"
-"for X. It has a lot of options like rendering gradients, solids, images"
-"but it also allows you to perform manipulations on those things, or "
-"chain them together.  You could use one standard background image for "
-"instance, and using tint to make it fit your current theme. And yes, "
-"of course it is compatible with semi-translucent applications like "
-"aterm and xchat :)"
+"for X.  It has a lot of options like rendering gradients, solids,"
+"images but it also allows you to perform manipulations on those"
+"things, or chain them together.  You could use one standard background"
+"image for instance, and using tint to make it fit your current theme."
+"And yes, of course it is compatible with semi-translucent applications"
+"like aterm and xchat :)"
 )
 
 
