@@ -2,7 +2,7 @@
 #
 # Please report any issues with this package via Github:
 #
-# 	http://github.com/Spidey01/zenwalk-hsetroot-package/issues
+#   http://github.com/Spidey01/zenwalk-hsetroot-package/issues
 #
 # If you must send an E-Mail, prefix the subject line with the package name, or
 # some other means of identifying it as NON-SPAM.
@@ -10,7 +10,7 @@
 pkgname=hsetroot
 pkgver=1.0.2
 pkgrel=1
-zenver=64
+zenver=66
 arch=i486
 source=("http://thegraveyard.org/files/${pkgname}-${pkgver}.tar.gz")
 sourcetemplate="http://dl.dropbox.com/u/7012687/zenwalk/packages/${pkgname}"
@@ -33,8 +33,8 @@ slackdesc=\
 
 
 build() {
-	cd $startdir/src/$pkgname-$pkgver
-	./configure --prefix=/usr --localstatedir=/var --sysconfdir=/etc
-	make || return 1
-	make install DESTDIR=$startdir/pkg
+    cd $startdir/src/$pkgname-$pkgver
+    ./configure --prefix=/usr --localstatedir=/var --sysconfdir=/etc
+    make || return 1
+    make install DESTDIR=$startdir/pkg
 } 
